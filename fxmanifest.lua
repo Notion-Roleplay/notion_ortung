@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Pooschi'
-description 'QBCore Police Job Garage (E Menu, 7 Spawns, Store within 20m, 2min delete timer)'
-version '1.0.1'
+author 'Notion-Roleplay © 2026'
+description 'Notion-Roleplay.de JobGarage'
+version '1.0.5'
 
 lua54 'yes'
 
@@ -13,12 +13,12 @@ shared_scripts {
 }
 
 client_scripts {
-    'client.lua',
+    'client/client.lua'
 }
 
 server_scripts {
-    'server.lua',
-    'updater.lua'
+    'server/server.lua',
+    'server/updater.lua'
 }
 
 dependencies {
