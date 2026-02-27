@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Pooschi'
 description 'QBCore Police Job Garage (E Menu, 7 Spawns, Store within 20m, 2min delete timer)'
-version '1.0.0'
+version '1.0.1'
 
 lua54 'yes'
 
