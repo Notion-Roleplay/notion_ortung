@@ -7,7 +7,7 @@ game 'gta5'
 
 author 'Notion-Roleplay © 2026'
 description 'Notion-Roleplay.de RoadPhone Tracking Terminals'
-version '2.0.0'
+version '1.9.9'
 
 shared_scripts {
     '@ox_lib/init.lua',
