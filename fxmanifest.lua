@@ -1,15 +1,17 @@
+----------------- Für Support, Skripte und mehr ---------------
+----------------- https://discord.gg/H2tpQtvBf7 ---------------
+---------------------------------------------------------------
+
 fx_version 'cerulean'
 game 'gta5'
 
 author 'Notion-Roleplay © 2026'
-description 'Notion-Roleplay.de JobGarage'
-version '1.0.5'
-
-lua54 'yes'
+description 'Notion-Roleplay.de RoadPhone Tracking Terminals'
+version '2.0.0'
 
 shared_scripts {
-    '@qb-core/shared/locale.lua',
-    'config.lua',
+    '@ox_lib/init.lua',
+    'config.lua'
 }
 
 client_scripts {
@@ -17,13 +19,9 @@ client_scripts {
 }
 
 server_scripts {
+    '@oxmysql/lib/MySQL.lua',
     'server/server.lua',
     'server/updater.lua'
 }
 
-dependencies {
-    'qb-core',
-    'qb-menu'
-}
-
-dependency 'oxmysql'
+lua54 'yes'
